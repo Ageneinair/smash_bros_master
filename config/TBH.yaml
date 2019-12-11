@@ -1,0 +1,26 @@
+# [y1, x1, y2, x2]:  left top point: (x1,y1); right bottom point: (x2,y2)
+stacks:
+  player1:
+    stack1: [ 544, 269, 576, 302]
+    stack2: [ 544, 302, 576, 335]
+    stack3: [ 544, 335, 576, 368]
+    stack4: [ 544, 368, 576, 401]
+  player2:
+    stack1: [ 544, 651, 576, 684]
+    stack2: [ 544, 684, 576, 717]
+    stack3: [ 544, 717, 576, 750]
+    stack4: [ 544, 750, 576, 783]
+
+percentages:
+  player1: [603, 268, 661, 399]
+  player2: [603, 655, 661, 774]
+  preprocessing_operations: [['inRange', [[0,0,190], [180,30,255]]], [delete_small_spot,[50,50]], ['bitwise_not',[]]]
+
+time:
+  position: [114, 534, 156, 764]
+  preprocessing_operations: [['inRange', [[0,0,190], [180,30,255]]], ['bitwise_not',[]]]
+
+names:
+  player1: [24, 105, 44, 194]
+  player2: [23, 1142, 44, 1230]
+  preprocessing_operations: [['inRange', [[0,0,0], [180,255,110]]], ['bitwise_not',[]]]

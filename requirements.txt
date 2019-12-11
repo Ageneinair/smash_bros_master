@@ -1,0 +1,7 @@
+PyYAML==5.2
+tensorflow
+scikit-learn
+scipy
+pytesseract
+opencv-python==3.4.2.16 -i "https://pypi.doubanio.com/simple/"
+opencv-contrib-python==3.4.2.16 -i "https://pypi.doubanio.com/simple/"
