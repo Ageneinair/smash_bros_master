@@ -33,7 +33,7 @@ The playground classifier and stack classifier are pre-trained model of CNN. The
 You can download the labeled data from here: [dataset for playground](https://drive.google.com/drive/folders/1PBp97KZfAhjnTJfKeZdQ1kja5L6mxao9?usp=sharing), [dataset for stack](https://drive.google.com/drive/folders/1GEQrvz48L3LdMJl2LN-vQ7VAkViptsXH?usp=sharing).
 
 ### Training Process
-The models are trained in Google Colab with GPU, you can check the training process from [here for playground]](https://github.com/Ageneinair/smash_bros_master/blob/master/colab_training/playground_classifier.ipynb) and [here for stack]](https://github.com/Ageneinair/smash_bros_master/blob/master/colab_training/stack_classifer.ipynb).
+The models are trained in Google Colab with GPU, you can check the training process from [here for playground](https://github.com/Ageneinair/smash_bros_master/blob/master/colab_training/playground_classifier.ipynb) and [here for stack](https://github.com/Ageneinair/smash_bros_master/blob/master/colab_training/stack_classifer.ipynb).
 
 ## Feature Match
 Also the repo has propose a method to find the region of interest by matching some specific features in the video (not write in pipeline yet), which can make the pipeline can generate the config file automatically. You can check the training from [here](https://github.com/Ageneinair/smash_bros_master/blob/master/feature_match.ipynb).
